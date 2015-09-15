@@ -22,7 +22,7 @@ git clone https://github.com/Maxlab/php-tasks-to-prepare-for-interview.git && cd
 
 Пример использования смотрите в test.php
 
-#####Файл с примерами test.php
+#####Файл с примерами https://github.com/Maxlab/php-tasks-to-prepare-for-interview/blob/master/test.php
 
 
 
