@@ -26,8 +26,7 @@ interface ITestMathInterface
     public function testMath2($symbols, $lenght);
 
     /**
-     * Вывести числа Фибоначи от 3 до 200, где максимальное значение может быть
-     *  указано опционально параметром $max
+     * Вывести числа Фибоначи, где кол-во цифр задано параметром $n
      *
      * На выходе строка к примеру - '0,1,1,2,3,5 и тд.'
      *
@@ -39,6 +38,6 @@ interface ITestMathInterface
      * 0,1,1,2
      * 0,1,1,2,3 и тд.
      */
-    public function testMath3($max);
+    public function testMath3($n);
 
 }
