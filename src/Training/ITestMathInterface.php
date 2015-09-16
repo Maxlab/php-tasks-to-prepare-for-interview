@@ -39,6 +39,6 @@ interface ITestMathInterface
      * 0,1,1,2
      * 0,1,1,2,3 и тд.
      */
-    function testMath3($max);
+    public function testMath3($max);
 
 }

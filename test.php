@@ -1,9 +1,11 @@
 <?php
+// Подгрузка файлов
 require_once('loader.php');
 
 use Training\ITestSortInterface;
 use Training\Data;
 
+// Класс Test реализует интерфейс ITestSortInterface
 class Test implements ITestSortInterface
 {
     /**
@@ -83,4 +85,9 @@ class Test implements ITestSortInterface
 }
 
 $test = new Test();
+/**
+ * Тут подробнее.
+ * \FireDog\FB::info() - выводит дебаг инфу в консоль сервера
+ * Data::getData(Data::ARR_SIMPL_INT) - предоставляет готовые данные для заданий
+ */
 \FireDog\FB::info($test->testSort1(Data::getData(Data::ARR_SIMPL_INT)));
