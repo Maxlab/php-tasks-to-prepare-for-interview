@@ -32,15 +32,15 @@ class Data
                 break;
             case self::ARR_ASSOC_MLTY_DB:
                 return array(
-                    '1' => array('price' => 10, 'count' => 2),
-                    '2' => array('price' => 5, 'count' => 5),
-                    '3' => array('price' => 8, 'count' => 5),
-                    '4' => array('price' => 12, 'count' => 4),
-                    '5' => array('price' => 8, 'count' => 4),
+                    array('price' => 10, 'count' => 2),
+                    array('price' => 5, 'count' => 5),
+                    array('price' => 8, 'count' => 5),
+                    array('price' => 12, 'count' => 4),
+                    array('price' => 8, 'count' => 4),
                 );
                 break;
             default:
-                throw new Exception('Тип данных не найден');
+                throw new \Exception('Тип данных не найден');
         }
     }
 }
