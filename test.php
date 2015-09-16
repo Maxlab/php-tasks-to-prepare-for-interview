@@ -112,8 +112,7 @@ class Test implements ITestSortInterface, ITestMathInterface
     }
 
     /**
-     * Вывести числа Фибоначи от 3 до 200, где максимальное значение может быть
-     *  указано опционально параметром $max
+     * Вывести числа Фибоначи, где кол-во цифр задано параметром $n
      *
      * На выходе строка к примеру - '0,1,1,2,3,5 и тд.'
      *
@@ -127,16 +126,7 @@ class Test implements ITestSortInterface, ITestMathInterface
      */
     public function testMath3($n)
     {
-        $n--;
-        if ($n == 0) return array(0);
-        if ($n == 1) return array(0,1);
-
-        $a = array(0,1);
-        for ($i = 2; $i <= $n; $i++) {
-            $a[$i] = $a[$i-1] + $a[$i-2];
-        }
-
-        return $a;
+        // TODO: Implement testMath3() method.
     }
 
 
@@ -148,5 +138,4 @@ $test = new Test();
  * \FireDog\FB::info() - выводит дебаг инфу в консоль сервера
  * Data::getData(Data::ARR_SIMPL_INT) - предоставляет готовые данные для заданий
  */
-//\FireDog\FB::info($test->testSort1(Data::getData(Data::ARR_SIMPL_INT)));
-\FireDog\FB::info($test->testMath3(10));
+\FireDog\FB::info($test->testSort1(Data::getData(Data::ARR_SIMPL_INT)));
