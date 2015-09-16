@@ -25,10 +25,10 @@ interface ITestSortInterface
      * На выходе отсортированный массив
      *  по 'price' DESC и во вторую очередь по 'count' DESC
      * array(
-     *  array('price'=>5,'count'=>2),
+     *  array('price'=>5,'count'=>5),
      *  array('price'=>8,'count'=>4),
      *  array('price'=>8,'count'=>5),
-     *  array('price'=>10,'count'=>5),
+     *  array('price'=>10,'count'=>2),
      *  array('price'=>12,'count'=>4),
      * )
      *

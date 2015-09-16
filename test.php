@@ -37,20 +37,20 @@ class Test implements ITestSortInterface, ITestMathInterface
      * Отсортировать двумерный массив пришедший из БД
      *
      * На входе array(
-     *  '1'=>array('price'=>10,'count'=>2),
-     *  '2'=>array('price'=>5,'count'=>5),
-     *  '3'=>array('price'=>8,'count'=>5),
-     *  '4'=>array('price'=>12,'count'=>4),
-     *  '5'=>array('price'=>8,'count'=>4),
+     *  array('price'=>10,'count'=>2),
+     *  array('price'=>5,'count'=>5),
+     *  array('price'=>8,'count'=>5),
+     *  array('price'=>12,'count'=>4),
+     *  array('price'=>8,'count'=>4),
      * )
      * На выходе отсортированный массив
      *  по 'price' DESC и во вторую очередь по 'count' DESC
      * array(
-     *  '2'=>array('price'=>5,'count'=>2),
-     *  '5'=>array('price'=>8,'count'=>4),
-     *  '3'=>array('price'=>8,'count'=>5),
-     *  '1'=>array('price'=>10,'count'=>5),
-     *  '4'=>array('price'=>12,'count'=>4),
+     *  array('price'=>5,'count'=>5),
+     *  array('price'=>8,'count'=>4),
+     *  array('price'=>8,'count'=>5),
+     *  array('price'=>10,'count'=>2),
+     *  array('price'=>12,'count'=>4),
      * )
      *
      */
