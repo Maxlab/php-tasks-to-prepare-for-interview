@@ -12,7 +12,7 @@ git clone https://github.com/Maxlab/php-tasks-to-prepare-for-interview.git && cd
  - Data.php, он поставляет искусственные данные для заданий.
 
  ```php
- Data::getData(Data::getData(Data::ARR_SIMPL_INT)));
+ Data::getData(Data::ARR_SIMPL_INT));
  ```
  - FB.php, он позволяет выводить в консоль браузера дебаг инфу. Требует установки плагина firephp(для современных браузеров).
 
