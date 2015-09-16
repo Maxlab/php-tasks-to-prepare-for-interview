@@ -17,7 +17,14 @@ interface ITestStringInterface
      * То, на выходе должно быть 'John...'
      *
      */
-    public function testString1($symbols, $lenght);
+    public function testString1($tring, $lenght);
+
+    /**
+     * Нужно: Перевернуть строку 'John Doe'
+     *
+     * На выходе строка 'eoD nhoJ'
+     */
+    public function testString2($tring);
 
     /**
      * Нужно: сгенерировать случайным образом пароль заданной длинны и из указанных символов.
@@ -30,6 +37,6 @@ interface ITestStringInterface
      *  $lenght = 5
      * на выходе строка 'bR48s'
      */
-    public function testString2($symbols, $lenght);
+    public function testString3($symbols, $lenght);
 
 }
