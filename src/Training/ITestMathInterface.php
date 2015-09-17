@@ -28,7 +28,7 @@ interface ITestMathInterface
      * на входе
      *  $symbols = 'abcdsrRGHK12345'
      *  $lenght = 5
-     * на выходе строка 'bR48s'
+     * на выходе строка 'bR41s'
      */
     public function testMath3($symbols, $lenght);
 
