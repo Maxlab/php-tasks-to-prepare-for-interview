@@ -14,8 +14,7 @@ interface ITestMathInterface
 
     /**
      * Нужно: вычислить факториал числа рекурсивно
-     * @param $n
-     * @return mixed
+     * $n - число
      */
     public function testMath2($n);
 
