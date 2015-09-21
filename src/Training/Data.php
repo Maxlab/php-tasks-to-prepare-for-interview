@@ -8,6 +8,7 @@ class Data
     const ARR_SQURE_MTRX = 'array_square_matrix';
     const ARR_ASSOC_INT = 'array_assoc_int';
     const ARR_ASSOC_MLTY_DB = 'array_assoc_multy_db';
+    const ARR_ASSOC_MLTY_DB2 = 'array_assoc_multy_db2';
 
     public static function getData($dataName)
     {
@@ -37,6 +38,14 @@ class Data
                     array('price' => 8, 'count' => 5),
                     array('price' => 12, 'count' => 4),
                     array('price' => 8, 'count' => 4),
+                );
+                break;
+            case self::ARR_ASSOC_MLTY_DB2:
+                return array(
+                    array('weight' => 6, 'price' => 30),
+                    array('weight' => 3, 'price' => 14),
+                    array('weight' => 4, 'price' => 12),
+                    array('weight' => 2, 'price' => 9),
                 );
                 break;
             default:
