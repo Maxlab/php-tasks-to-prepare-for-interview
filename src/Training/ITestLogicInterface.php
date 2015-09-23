@@ -15,7 +15,7 @@ interface ITestLogicInterface
      * Нужно: Вычислить, какие двери будут открыты, когда мы откроем все 100 дверей.
      *
      * @param $array - массив, где значение = номеру двери
-     * @return mixed
+     * @return array с "открытыми дверьми"
      */
     public function testLogic1($array);
 }
