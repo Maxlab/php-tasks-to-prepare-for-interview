@@ -4,6 +4,7 @@ namespace Training;
 class Data
 {
     const ARR_SIMPL_INT = 'array_simple_int';
+    const ARR_SIMPL_ABC = 'array_simple_abc';
     const ARR_MLTY_INT = 'array_multy_int';
     const ARR_SQURE_MTRX = 'array_square_matrix';
     const ARR_ASSOC_INT = 'array_assoc_int';
@@ -15,6 +16,9 @@ class Data
         switch ($dataName) {
             case self::ARR_SIMPL_INT:
                 return array(2, 5, 3, 5, 6, 7, 8, 9, 25, 24, 18, 26, 27, 28, 29, 30, 31);
+                break;
+            case self::ARR_SIMPL_ABC:
+                return array('A','B','C','D','E');
                 break;
             case self::ARR_MLTY_INT:
                 return array(array(2, 5, 3), 5, 6, 7, array(8, 9, array(25)), 24, 18);

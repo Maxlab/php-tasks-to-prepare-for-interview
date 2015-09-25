@@ -21,5 +21,4 @@ interface ITestMassiveReverseInterface
      * из встроенных функций.
      */
     public function testMassRev3($array);
-
 }
