@@ -15,7 +15,7 @@ class Data
     {
         switch ($dataName) {
             case self::ARR_SIMPL_INT:
-                return array(2, 5, 3, 5, 4, 1, 6, 7, 8, 9, 25, 24, 18, 26, 27, 28, 29, 30, 31);
+                return array(2, 5, 3, 3, 5, 4, 1, 6, 7, 8, 9, 25, 24, 18, 26, 27, 28, 29, 30, 31);
                 break;
             case self::ARR_SIMPL_ABC:
                 return array('A','B','C','D','E');
