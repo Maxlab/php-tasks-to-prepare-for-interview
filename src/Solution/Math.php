@@ -1,6 +1,5 @@
 <?php
-// Подгрузка файлов
-require_once('loader.php');
+namespace Solution;
 
 class Math implements \Training\ITestMathInterface
 {
